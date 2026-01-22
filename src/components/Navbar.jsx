@@ -1,7 +1,7 @@
 import NavbarBrand from "./NavbarBrand";
 import NavbarMenu from "./NavbarMenu";
 import NavbarActions from "./NavbarActions";
-import navbarData from "./navbardata";
+import navbarData from "./navbardata.js";
 
 const Navbar = () => {
   return (
