@@ -16,12 +16,6 @@ const navbarData = {
     { label: "Accessories", href: "/accessories" },
     { label: "Blog", href: "/blog" },
   ],
-
-  actions: [
-    { icon: <FiSearch size={18} /> },
-    { icon: <HiOutlineUser size={18} />, text: "My account" },
-    { icon: <HiOutlineShoppingBag size={18} />, text: "0,00 €" },
-  ],
 };
 
 export default navbarData;
