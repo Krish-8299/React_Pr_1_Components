@@ -1,12 +1,17 @@
-const NavbarActions = ({ actions }) => {
+const NavbarActions = () => {
   return (
     <div className="navbar-actions justify-content-end">
-      {actions.map((action, index) => (
-        <div key={index} className="navbar-action">
-          {action.icon}
-          <span className="d-none d-lg-inline">{action.text}</span>
+      {/* {actions.map((action, index) => ( */}
+        <div className="navbar-action">
+          <i class="ri-search-line"></i> 
         </div>
-      ))}
+        <div className="navbar-action">
+          <i class="ri-user-line"></i>
+        </div>
+        <div className="navbar-action">
+          <i class="ri-shopping-bag-line"></i>
+        </div>
+      {/* ))} */}
     </div>
   );
 };
